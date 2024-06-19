@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(4, 1fr); */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 2rem;
+}
