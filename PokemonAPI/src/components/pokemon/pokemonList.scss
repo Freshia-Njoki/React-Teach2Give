@@ -1,0 +1,25 @@
+.pokemon{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap;
+    
+    .Pitem{
+        height: 7rem;
+    width: 12rem;
+    background-color: aqua;
+    margin: 1rem;
+    border-radius: 3px;
+    color: black;
+    }
+}
+.btn{
+    color: white;
+    background-color: green;
+    border: none;
+    margin: 1rem;
+    justify-content: center;
+    width: 70px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
